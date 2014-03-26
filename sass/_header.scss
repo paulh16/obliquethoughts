@@ -1,0 +1,94 @@
+// Common mixins
+
+@mixin image-replacement-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-header {
+
+  position: relative;
+  color: $header-black;
+
+  h1 {
+    @include image-replacement-text;
+    background: url(../../img/built/logo_1.png) no-repeat;
+    margin: 0 auto;
+    background-size: 250px 90px;
+    width: 250px;
+    height: 90px;
+
+    @include bp(alpha) {
+      background-size: 325px 116px;
+      width: 325px;
+      height: 116px;
+    }
+
+    @include bp(gamma) {
+      background-size: 350px 125px;
+      width: 350px;
+      height: 125px;
+    }
+
+    @include bp(delta) {
+      background-size: 400px 143px;
+      width: 400px;
+      height: 143px;
+    }
+  }
+
+  h2 {
+    display: inline-block;
+    margin: 1em auto;
+    width: 100%;
+    @include font(sans);
+    @include font-size(1);
+    text-align: center;
+      a {
+        color: $dark-charcoal;
+        text-decoration: underline;
+        @include charcoal-hover;
+        @include link-transition;
+      }
+
+    @include bp(beta) {
+      //width: 60%;
+    }
+  }
+  
+  span {
+    display: none;
+    @include bp(delta) {
+      display: inline;
+    }
+    
+    &.capitalize {
+      text-transform: capitalize;
+      display: inline;
+      @include bp(alpha) {
+        text-transform: none;
+      }
+    }
+    
+    &.media-alpha {
+      @include bp(alpha) {
+        display: inline;
+      }
+    }
+
+    &.media-beta {
+      @include bp(beta) {
+        display: inline;
+      }
+    }
+
+    &.media-delta {
+      @include bp(gamma) {
+        display: inline;
+      }
+    }
+  }
+}
+
+

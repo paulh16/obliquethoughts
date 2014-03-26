@@ -1,0 +1,10 @@
+// Components are common elements such as borders, forms, etc.
+
+@mixin border-bottom {
+  border-bottom: 1px black solid;
+}
+
+@mixin border-top {
+  border-top: 1px black solid;
+}
+

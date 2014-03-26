@@ -1,0 +1,61 @@
+footer {
+
+  nav {
+
+    p {
+      text-align: center;
+      @include font-size(1.1);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: $charcoal;
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding: $pad/2 0;
+      margin: 0 5%;
+      text-align: center;
+
+      li {
+        display: inline-block;
+        padding: .4rem 0;
+        &::after {
+          content: "";
+          padding: 0 .3rem;
+          @include font-size(1.5);
+          color: $very-light-gray;
+        }
+        &:last-of-type {
+          &::after {
+            content: "";
+          }
+        } 
+
+        a {
+          @include font-size(1.5);
+          color: $dark-blue;
+          text-decoration: underline;
+          @include font(sans);
+          &:hover {
+            text-decoration: none;
+            color: $hover-blue;
+            @include link-transition;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    a {
+      color: $dark-red;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $hover-red;
+        @include link-transition;
+      }
+    }
+  }
+
+}

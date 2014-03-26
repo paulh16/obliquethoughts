@@ -1,0 +1,30 @@
+{% include header.html %}
+
+  <section class="blog-posts" role="main">
+
+    {{ content }}
+
+  <nav class="arrows module clearfix">
+
+    {% if paginator.total_pages > 1 %}
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <p class="col-1-2 old-arrow"><span class="icon-arrow-left"></span><a href="/">Older Posts</a></p>
+        {% else %}
+          <p class="col-1-2 old-arrow"><span class="icon-arrow-left"></span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts</a></p>
+        {% endif %}
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <p class="col-1-2 new-arrow"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer Posts</a><span class="icon-arrow-right"></span></p>
+      {% endif %}
+    {% endif %}
+    
+
+
+  </nav>
+
+
+  </section>
+
+{% include footer.html %}

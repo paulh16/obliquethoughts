@@ -1,0 +1,21 @@
+@mixin bp($point) {
+  
+  $bp-alpha: "(min-width: 30em)";
+  $bp-beta: "(min-width: 39em)";
+  $bp-gamma: "(min-width: 44em)";
+  $bp-delta: "(min-width: 49em)";
+
+  @if $point == alpha {
+    @media #{$bp-alpha} { @content; }
+  }
+  @else if $point == beta {
+    @media #{$bp-beta} { @content; }
+  }
+  @else if $point == gamma {
+    @media #{$bp-gamma} { @content; }
+  }
+  @else if $point == delta {
+    @media #{$bp-delta}  { @content; }
+  }
+
+}

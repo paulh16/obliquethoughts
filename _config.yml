@@ -1,0 +1,10 @@
+name: ArtDiversions
+markdown: redcarpet
+pygments: true
+baseurl:
+
+paginate_path: "/page:num"
+paginate: 4
+excerpt_separator: ""
+permalink: /:title/
+excerpt_separator: <!--excerpt-->

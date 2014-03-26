@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/build/main.css">
+    <script src="{{ site.baseurl }}/js/vendor/modernizr.custom.73621.js"></script>
+
+    <script type="text/javascript">
+      (function(d) {
+        var config = {
+          kitId: 'pwp6wqk',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+  </head>
+
+  <body role="document">
+
+      <div class="grid grid-pad">
+
+        <header class="main-header" role="banner">
+              <a href="/" title="Art Diversions Home"><h1>{{ site.name }}</h1></a>
+              <h2><span class="media-beta">You&rsquo;re reading </span><a href="/"><span class="media-alpha">ArtDiversions</span></a><span>, a blog on the art world,</span> <span class="capitalize">by</span> Amy Haddad. <a href="{{ site.baseurl }}/about">Learn more about me.</a></h2>
+        </header>

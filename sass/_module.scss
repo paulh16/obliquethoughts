@@ -1,0 +1,18 @@
+// Modules are the elements that are within header, section and footer elements; these include articles and divs
+
+.module {
+    padding: 1rem 0;
+}
+
+@mixin charcoal-hover {
+  &:hover {
+    text-decoration: none;
+    color: $hover-charcoal;
+  }
+}
+
+@mixin link-transition {
+  transition: color .2s ease-in;
+}
+
+
