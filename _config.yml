@@ -1,7 +1,7 @@
-name: ArtDiversions
+name: ObliqueThoughts
 markdown: redcarpet
 pygments: true
-baseurl:
+baseurl: /obliquethoughts
 
 paginate_path: "/page:num"
 paginate: 4
