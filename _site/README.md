@@ -1,4 +1,0 @@
-artdiversions
-=============
-
-Amy's Blog
