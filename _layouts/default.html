@@ -9,7 +9,7 @@
     {% if paginator.total_pages > 1 %}
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-          <p class="col-1-2 old-arrow"><span class="icon-arrow-left"></span><a href="/">Older Posts</a></p>
+          <p class="col-1-2 old-arrow"><span class="icon-arrow-left"></span><a href="{{ site.baseurl }}">Older Posts</a></p>
         {% else %}
           <p class="col-1-2 old-arrow"><span class="icon-arrow-left"></span><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts</a></p>
         {% endif %}
