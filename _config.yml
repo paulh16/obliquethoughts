@@ -4,7 +4,7 @@ pygments: true
 baseurl: /obliquethoughts
 
 paginate_path: "/page:num"
-paginate: 4
+paginate: 3
 excerpt_separator: ""
 permalink: /:title/
 excerpt_separator: <!--excerpt-->
