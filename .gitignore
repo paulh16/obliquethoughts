@@ -1,0 +1,11 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+_site/
+.sass-cache/
+.DS_Store
+node_modules/
+css/.DS_Store
+image_work/
+img/build/
+img/prebuild/
