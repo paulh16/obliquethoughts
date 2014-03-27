@@ -11,6 +11,13 @@
   }
 }
 
+@mixin blue-hover {
+  &:hover {
+    text-decoration: none;
+    color: $hover-blue;
+  }
+}
+
 @mixin link-transition {
   transition: color .2s ease-in;
 }

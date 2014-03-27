@@ -16,9 +16,9 @@
     letter-spacing: -.5px;
     line-height: 1.2;
     a {
-      color: $dark-red;
+      color: $dark-blue;
       &:hover {
-        color: $hover-red;
+        color: $hover-blue;
         text-decoration: underline;
         @include link-transition;
       }
@@ -100,10 +100,10 @@
     display: block;
     text-align: right;
     @include font(sans-it);
-    color: $dark-red;
+    color: $dark-blue;
     text-decoration: underline;
     &:hover {
-        color: $hover-red;
+        color: $hover-blue;
         text-decoration: none;
         @include link-transition;
       }

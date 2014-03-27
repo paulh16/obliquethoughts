@@ -46,9 +46,9 @@
     @include font-size(1);
     text-align: center;
       a {
-        color: $dark-charcoal;
+        color: $dark-blue;
         text-decoration: underline;
-        @include charcoal-hover;
+        @include blue-hover;
         @include link-transition;
       }
 

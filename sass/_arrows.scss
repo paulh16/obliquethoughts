@@ -22,8 +22,8 @@
     text-decoration: none;
     @include font-size(1.2);
     @include font(sans);
-    color: $dark-charcoal;
-    @include charcoal-hover;
+    color: $dark-blue;
+    @include blue-hover;
     @include link-transition;
     &:hover {
       text-decoration: underline;

@@ -87,14 +87,14 @@
 }
 .icon-arrow-right:before {
   content: "\e603";
-  color: $dark-charcoal;
-  @include charcoal-hover;
+  color: $dark-blue;
+  @include blue-hover;
   @include link-transition;
 }
 .icon-arrow-left:before {
   content: "\e604";
-  color: $dark-charcoal;
-  @include charcoal-hover;
+  color: $dark-blue;
+  @include blue-hover;
   @include link-transition;
 }
 
