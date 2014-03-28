@@ -12,29 +12,15 @@
   color: $header-black;
 
   h1 {
-    @include image-replacement-text;
-    background: url(../../img/built/logo_1.png) no-repeat;
     margin: 0 auto;
-    background-size: 250px 90px;
-    width: 250px;
-    height: 90px;
-
-    @include bp(alpha) {
-      background-size: 325px 116px;
-      width: 325px;
-      height: 116px;
-    }
+    text-align: center;
+    @include font-size(2);
+    @include font(sans-bold);
+    line-height: 1.25;
 
     @include bp(gamma) {
-      background-size: 350px 125px;
-      width: 350px;
-      height: 125px;
-    }
-
-    @include bp(delta) {
-      background-size: 400px 143px;
-      width: 400px;
-      height: 143px;
+      @include font-size(2.5);
+      line-height: 1.75;
     }
   }
 
