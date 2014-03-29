@@ -6,5 +6,5 @@ baseurl: /obliquethoughts
 paginate_path: "/page:num"
 paginate: 3
 excerpt_separator: ""
-permalink: /:title/
+permalink: /:year/:month/:title/
 excerpt_separator: <!--excerpt-->
