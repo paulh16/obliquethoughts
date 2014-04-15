@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "More opportunities to learn Rails"
-date:   2014-04-04 9:00:00
+date:   2014-04-14 9:00:00
 author: "Paul"
 location: "London"
 ---
