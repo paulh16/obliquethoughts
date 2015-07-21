@@ -1,7 +1,7 @@
 name: Oblique Thoughts
 markdown: redcarpet
-pygments: true
-baseurl: /obliquethoughts
+highlighter: pygments
+baseurl:
 
 paginate_path: "/page:num"
 paginate: 3
