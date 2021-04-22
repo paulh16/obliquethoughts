@@ -13,6 +13,8 @@ Discrete Math, and the Unix Shell. In this post, I’ll describe my approach to
 learning C, which was the most challenging part of the prep work for most of my
 cohort.
 
+<!--excerpt-->
+
 * The _C Programming Language_, better known as K&R for its authors, was the primary
 recommended resource. I had previously worked through the book and most of its
 exercises. I created an approach, which included solving challenging problems
