@@ -1,0 +1,20 @@
+---
+layout: default
+title: Oblique Thoughts | Home
+---
+
+{% for post in paginator.posts %}
+
+  <article class="post module">
+
+    <h1><a href="{{ site.baseurl }}{{ post.url }}" title="post.title">{{ post.title }}</a></h1>
+
+    <h2><em><time datetime="2014-01-21">By {{ post.author }} on {{ post.date | date_to_long_string }} in {{ post.location }}</time></em></h2> 
+
+    {{ post.excerpt }}
+
+    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="continue-reading">Continue reading</a>
+
+  </article>
+
+{% endfor %}

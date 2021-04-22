@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2015-07-20 12:00:00
+author: "Paul"
+location: "Chicago"
+---
+
+Welcome to my blog! What do I hope to write about here? I have many interests, from the internet to management. I will share my ideas and elaborate on others' ideas, too. I am an avid reader of books and blogs. Some of my favorite authors are Peter Drucker, Jim Collins, Nassim Nicholas Taleb and John Kay. I enjoy a number of blogs, particularly *Signals vs. Noise* by the gang at Basecamp (formerly 37signals). Finally, I am an avid reader of *The Economist*, and especially enjoy the writings of its Buttonwood columnist, Philip Coggan, and its Schumpeter columnist, Adrain Wooldridge.
+
+A second purpose of this blog is to share my experiences in learning about the internet and how technology works. Three years ago, I had no idea how to program, nor had any inclination to learn. But after creating a site in Wordpress for a friend, I became engrossed. I focused on Wordpress for much of the first year, and also delved into Python by taking Udacity's first programming course. Over time, I felt the limitations of Wordpress. Too many people were trying to take it to places it wasn't designed for: it is, first and foremost, a blogging engine, not a web application framework. This led me to explore programming and web applications. After working with Python, Django and Google App Engine, I wanted something better. 
+
+<!--excerpt-->
+
+For some time now, I've been following 37signals (now Basecamp) on their *Signals vs. Noise* blog. One of their partners, David Heinemeier Hansson, is a longtime proponent of the Ruby programming language and the creator of the web application framework, Ruby on Rails. This led me to learn more about Ruby and Rails; ever since, I have been in love with both. Programming is enjoyable and a passion of mine. I love to build things, and programming allows me to do so. I have been working with Ruby and Rails for some time now, but will share my experience in taking my skills to the next level. 
+
+Finally, a little about me. I was born and raised in Columbus, Ohio, and trained as a Mechanical Engineer at Ohio State. I recently married my wife, Amy, last August; her graduate studies at Sotheby's Institute of Art have taken us to London. Living in such a cosmopolitan city that has a vibrant tech hub has awoken my eyes to greater possibilities.

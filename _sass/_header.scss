@@ -1,0 +1,78 @@
+// Common mixins
+
+@mixin image-replacement-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-header {
+
+  position: relative;
+  color: $header-black;
+
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+    @include font-size(2);
+    @include font(sans-bold);
+    line-height: 1.25;
+
+    @include bp(gamma) {
+      @include font-size(2.5);
+      line-height: 1.75;
+    }
+  }
+
+  h2 {
+    display: inline-block;
+    margin: 1em auto;
+    width: 100%;
+    @include font(sans);
+    @include font-size(1);
+    text-align: center;
+      a {
+        color: $dark-blue;
+        text-decoration: underline;
+        @include blue-hover;
+        @include link-transition;
+      }
+
+    @include bp(beta) {
+      //width: 60%;
+    }
+  }
+  
+  span {
+    display: none;
+    @include bp(delta) {
+      display: inline;
+    }
+    
+    &.capitalize {
+      text-transform: capitalize;
+      display: inline;
+      @include bp(alpha) {
+        text-transform: none;
+      }
+    }
+    
+    &.media-alpha {
+      @include bp(alpha) {
+        display: inline;
+      }
+    }
+
+    &.media-beta {
+      @include bp(beta) {
+        display: inline;
+      }
+    }
+
+    &.media-delta {
+      @include bp(gamma) {
+        display: inline;
+      }
+    }
+  }
+}
